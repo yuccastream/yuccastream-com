@@ -33,17 +33,16 @@
     <meta property="og:image" content="/img/Yucca-Icon.jpg" />
     <link rel="canonical" href="https://yuccastream.com">
     <!--/metatextblock-->
-  
     <meta name="robots" content="nofollow" />
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />    
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="../css/scrolling-nav.css" rel="stylesheet">
-
-</head>
+    <!-- Custom styles for this template -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+  
+  </head>
 
 <body id="page-top">
 
@@ -57,19 +56,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger text-white" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger text-white" href="#review">Review</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-white" href="https://docs.yuccastream.com" target="_blank">Documentation</a>
+              <a class="nav-link js-scroll-trigger text-white" href="https://docs.yuccastream.com" target="_blank">Docs</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-white" href="/en/price.html">Price</a>
+              <a class="nav-link js-scroll-trigger text-white" href="/en/price">Price</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger text-white" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/ru/index.html">RU</a>
+            <a class="nav-link text-white" href="/ru">RU</a>
           </li>
         </ul>
       </div>
@@ -78,32 +77,55 @@
 
   <header class="bg-success text-white">
     <div class="container text-center">
-      <h1 class="mainTitle" >Yucca Stream</h1>
+      <h1 class="font-weight-bold" >Yucca Stream</h1>
       <p class="lead"> Simple, fast, high performance server for managing your video cameras</p>
     </div>
   </header>
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h1>About</h1>
-          <p class="lead">Yucca - this is a software NVR</p>
-          <ul>
-            <li>Works with cameras of any manufacturers</li>
-            <li>You can view videos in any modern browser, no longer need Internet Explorer</li>
-            <li>Easy navigation when working with the archive</li>
-          </ul>
-          <p>See how it works</p>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YamhHg0yvYs" allowfullscreen></iframe>
+    
+  <!-- Testimonials -->
+  <section id="review" class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Yucca - this is a software NVR</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="../img/any-cam.png" alt="">
+              <h5 class="font-weight-bold">Any camera</h5>
+              <p class="font-weight-light mb-0">Works with cameras of any manufacturers</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="../img/any-browser.png" alt="">
+              <h5 class="font-weight-bold">Any browser</h5>
+              <p class="font-weight-light mb-0">You can view videos in any modern browser, no longer need Internet Explorer</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="../img/easy.png" alt="">
+              <h5 class="font-weight-bold">Simple interface</h5>
+              <p class="font-weight-light mb-0">Easy navigation when working with the archive</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="bg-light">
+  <section class="text-center bg-secondary text-white">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">See how it works</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YamhHg0yvYs" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="contact" class="bg-light text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -124,7 +146,7 @@
           <span class="text-left text-white">Copyright &copy; Yucca Stream 2019</span>
         </div>
         <div class="col text-right">
-          <a class="text-white" href="/en/terms.html">Use conditions</a>
+          <a class="text-white" href="/en/terms">Use conditions</a>
         </div>
       </div>
   </div>
